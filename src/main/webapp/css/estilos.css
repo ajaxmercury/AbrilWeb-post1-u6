@@ -57,10 +57,44 @@ label {
     font-weight: bold;
 }
 
-input[type="text"], input[type="date"], select {
+input[type="text"], input[type="password"], input[type="date"], select {
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.saludo {
+    font-weight: bold;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.input-error {
+    border-color: #dc3545 !important;
+    background-color: #fff8f8;
+}
+
+.campo-error {
+    color: #dc3545;
+    font-size: 0.9em;
+    margin-top: 5px;
 }
